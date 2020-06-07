@@ -1,0 +1,35 @@
+INICIANDO A CONSTRUÇÃO DO APP ECOLETA COM DIEGO FERNANDES !
+
+
+1 - npm install -g expo-cli
+2 expo init mobile 
+-- (template blank(Typescript)) --
+-- SELECIONAO O NPM NÃO O YARN --
+
+4 - cd mobile (npm install metro -D)
+5- npm start -- (baixar app chamado expo) --
+
+6 - expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto 
+
+7- npm install @react-navigation/native
+8 - expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+9 - npm install @react-navigation/stack
+10 - expo install react-native-maps
+11 - expo install expo-constants
+
+12 - expo install react-native-svg
+13 - npm install axios
+
+14 - expo install expo-location (pegar localização do usuário)
+15 - expo install expo-mail-composer (para email)
+
+16 - npm install react-native-picker-select
+
+
+********************************************************************************
+                          ANOTAÇÕES
+
+- TODOS ELEMENTOS POSSUEM DISPLAY FLEX
+- COMPONENTES DO REACT NÃO ENTENDEM SVG NECESSITA DE UMA DEPENDENCIA (REACT-NATIVE-SVG)
+- REACT TEM A NECESSIDADE DE QUE AS SUAS KEYS SEJAM EM STRING
+- LINKING - GERENCIADOR DE LINK'S INTERNOS E EXTERNOS

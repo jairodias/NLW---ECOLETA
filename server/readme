@@ -1,0 +1,58 @@
+***************************** Roteiro de estudo BACKEND ************************
+________________________________________________________________________________
+1 - npm init -y
+2 - npm install express
+
+________________________________________________________________________________
+
+-- USANDO TYPESCRIPT E INSTALANDO SUA DEPÊNDENCIA --
+ npm install typescript -D
+ npm install @types/express -D
+ npm install ts-node -D (extensão  para executar o servidor)
+ npx tsc --init
+
+________________________________________________________________________________
+
+ npx ts-node src/server.ts (rodar o servidor)
+ npm install ts-node-dev -D (listen todas as alterações)
+ 
+
+ _______________________________________________________________________________
+
+ -- Alteração dentro do package.json para escutar alterações --
+ -----> foi criado um campo dentro de scipts chamado de dev
+ **** executa atraves do NPM RUN DEV ****
+
+ _______________________________________________________________________________
+
+          --- INICIO DE CONFIGURAÇÃO DE BANCO DE DADOS ---
+
+npm install knex
+npm install sqlite3
+
+knex.transaction() -> USADO PARA GARANTIR QUE UMA INFORMAÇÃO SERA USADA JUNTO A OUTRA, NAO PERMITE
+INSERIR OS DADOS CASO UMA DAS OPERAÇÕES FALHE
+
+________________________________________________________________________________
+        ---- CONFIGURAÇÃO DO CORS ---- (ROUTES)
+
+npm install cors
+npm install @types/cors -D
+*********************************** Imagens ************************************
+
+npm install multer
+
+npm install @types/multer -D
+
+npm install celebrate
+
+npm install @types/hapi__joi
+
+
+********************************** REACTJS ****************************************
+
+npx create-react-app web --template=typescript
+
+npm start (executa o projeto react)
+
+npm install react-dropzone
